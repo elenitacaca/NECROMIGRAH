@@ -114,7 +114,7 @@ TextureImporter:
         height: 228
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 2, y: 3, z: 0, w: 3}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -156,7 +156,7 @@ TextureImporter:
         height: 217
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 2, z: 3, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -192,13 +192,13 @@ TextureImporter:
       name: cubitosnecronomigraa_4
       rect:
         serializedVersion: 2
-        x: 542
+        x: 546
         y: 21
-        width: 223
+        width: 219
         height: 230
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 3, z: 5, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: 0
