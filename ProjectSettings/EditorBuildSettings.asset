@@ -6,6 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
+    path: Assets/Personaje/Scenes/SampleScene.unity
+=======
     path: Assets/Personaje/Scenes/Escena1.unity
+>>>>>>> de9ae5eefadb31523358a6246c5d1cb5438651a7
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
