@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c063802ae5f41064e9bf59444fc1edc7
+guid: 8f020c599b3aad141a2c09a6aecb5365
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 125
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mapa2_0
+      name: cubitos videojuego1_0
       rect:
         serializedVersion: 2
-        x: 266
-        y: 2848
-        width: 464
-        height: 1005
+        x: 72
+        y: 717
+        width: 110
+        height: 255
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d0c891389e05044a8a1a4a8d27a1282
-      internalID: -571057182
+      spriteID: e5477dd220b2d6044ac4fd3f9e57e5f0
+      internalID: -535292679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_1
+      name: cubitos videojuego1_1
       rect:
         serializedVersion: 2
-        x: 292
-        y: 1677
-        width: 441
-        height: 1000
+        x: 1179
+        y: 145
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713f2d0c633d8e04e896e8371de01478
+      internalID: 163275482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cubitos videojuego1_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 870
+        width: 120
+        height: 153
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 459b5707ada799b469f739a6d570180f
-      internalID: -589317363
+      spriteID: e79821118e3262445b80bf06f9ae1e5f
+      internalID: 1635485880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_2
+      name: cubitos videojuego1_3
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 2673
-        width: 488
-        height: 597
+        x: 403
+        y: 870
+        width: 120
+        height: 154
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,680 +182,659 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a52670f739effe459e4dd554c608146
-      internalID: 2126649895
+      spriteID: 17c3b0339a7690f48aa7e840dba756a7
+      internalID: 305023361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_3
+      name: cubitos videojuego1_8
       rect:
         serializedVersion: 2
-        x: 3799
-        y: 1678
-        width: 494
-        height: 505
+        x: 956
+        y: 885
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7faab4dd14a2052409f564694135ef3c
-      internalID: 720737854
+      spriteID: 71520709a33dc634990b8fec700fb326
+      internalID: -552281997
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_4
+      name: cubitos videojuego1_9
       rect:
         serializedVersion: 2
-        x: 3666
-        y: 1067
-        width: 257
-        height: 395
+        x: 1116
+        y: 882
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f5c0a97fb4ac194aaf42c96350a5dec
-      internalID: -391311259
+      spriteID: b964dd22084e472418dc96bc72edd3a7
+      internalID: 92402445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_5
+      name: cubitos videojuego1_10
       rect:
         serializedVersion: 2
-        x: 1052
-        y: 1054
-        width: 467
-        height: 597
+        x: 1353
+        y: 945
+        width: 73
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a9ce5bff64083146ba09af67304da99
-      internalID: 333223095
+      spriteID: 58d3582fb072e9a428495398251d54f0
+      internalID: -981303278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_6
+      name: cubitos videojuego1_14
       rect:
         serializedVersion: 2
-        x: 1573
-        y: 1059
-        width: 470
-        height: 594
+        x: 268
+        y: 673
+        width: 120
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37f4c99f2f1c59d4399a5aab3b7b55a7
-      internalID: -62110343
+      spriteID: d2264fe132c1fed439bc5f260927b854
+      internalID: 1683461037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_7
+      name: cubitos videojuego1_15
       rect:
         serializedVersion: 2
-        x: 1571
-        y: 1813
-        width: 472
-        height: 594
+        x: 400
+        y: 672
+        width: 122
+        height: 153
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a990a6c9a655434418ca602c29b4bd59
-      internalID: 1143869463
+      spriteID: 973c45bd58ea3a443b10b9d784c4bffa
+      internalID: -1136347841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_8
+      name: cubitos videojuego1_17
       rect:
         serializedVersion: 2
-        x: 1044
-        y: 1824
-        width: 473
-        height: 594
+        x: 572
+        y: 760
+        width: 149
+        height: 253
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f71fef0335b3c8b48b97cd68f37dc9fc
-      internalID: -1782860409
+      spriteID: 7c2ac5dc40e0f98458484af52f526292
+      internalID: 315976172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_9
+      name: cubitos videojuego1_18
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 2672
-        width: 465
-        height: 597
+        x: 777
+        y: 761
+        width: 145
+        height: 252
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d992d0e4a75804d4db7f8fc0f4a3cd72
-      internalID: -80543715
+      spriteID: 4f16a0ff910afd84ba3e250eeb73fe01
+      internalID: -782805900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_10
+      name: cubitos videojuego1_20
       rect:
         serializedVersion: 2
-        x: 1071
-        y: 3462
-        width: 470
-        height: 592
+        x: 956
+        y: 744
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acf65731ed0577c4aaab2a858b2dc7dc
-      internalID: -1821678282
+      spriteID: 3e1d2dfb6e30f014c89834baf1f9c89d
+      internalID: -358385038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_11
+      name: cubitos videojuego1_21
       rect:
         serializedVersion: 2
-        x: 1595
-        y: 3459
-        width: 481
-        height: 597
+        x: 1116
+        y: 744
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b053d3e4c2378424caa05dca4579f482
-      internalID: -702003653
+      spriteID: 357e0920dcf64c4458b1d3b9a7b38c98
+      internalID: 646829745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_12
+      name: cubitos videojuego1_22
       rect:
         serializedVersion: 2
-        x: 2264
-        y: 3016
-        width: 589
-        height: 1000
+        x: 1340
+        y: 799
+        width: 99
+        height: 67
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e47b0632521eaf4b83c7eb1716ef542
-      internalID: 177386650
+      spriteID: b9bba4a4542cb1444b4f8fe6284ec764
+      internalID: -1758084820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_13
+      name: cubitos videojuego1_32
       rect:
         serializedVersion: 2
-        x: 2245
-        y: 1894
-        width: 584
-        height: 999
+        x: 957
+        y: 591
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef258c14ec0d7a34fa59d5da691cacea
-      internalID: -733949075
+      spriteID: 451064d312d636b4fa6b52cd25dacede
+      internalID: -467724060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_14
+      name: cubitos videojuego1_33
       rect:
         serializedVersion: 2
-        x: 2380
-        y: 806
-        width: 427
-        height: 994
+        x: 1116
+        y: 592
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88bf5c149c1d0e64c9825c560491350b
-      internalID: -78469059
+      spriteID: 7e3277afb77eca043a1b17369ea3393c
+      internalID: 1399709422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_15
+      name: cubitos videojuego1_34
       rect:
         serializedVersion: 2
-        x: 2953
-        y: 801
-        width: 427
-        height: 999
+        x: 1331
+        y: 604
+        width: 132
+        height: 144
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a9cda2c43a5b6d40b69a50cf1deb66b
-      internalID: 1690848827
+      spriteID: 7e66d9249b9f70744bf684461b4a387d
+      internalID: -1626684185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_16
+      name: cubitos videojuego1_38
       rect:
         serializedVersion: 2
-        x: 2948
-        y: 1894
-        width: 575
-        height: 999
+        x: 262
+        y: 457
+        width: 123
+        height: 152
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51e7f0bb25a5ff845a685d2949d751ff
-      internalID: 2084119886
+      spriteID: b4e2ff5dc6d45564582cf898d3dcc153
+      internalID: -723767577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_17
+      name: cubitos videojuego1_39
       rect:
         serializedVersion: 2
-        x: 3077
-        y: 3019
-        width: 576
-        height: 996
+        x: 398
+        y: 455
+        width: 120
+        height: 153
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1861856794f608741bbf50c1792a92c2
-      internalID: -1264046058
+      spriteID: 60ddca39f0613cd4aa6af81dde9634e6
+      internalID: 577944662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_18
+      name: cubitos videojuego1_40
       rect:
         serializedVersion: 2
-        x: 3677
-        y: 464
-        width: 248
-        height: 408
+        x: 567
+        y: 477
+        width: 147
+        height: 253
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c503f3d96ba76640ba5be642a280782
-      internalID: -1921770579
+      spriteID: c4c39e8e8be9b7944bf515925296aa7f
+      internalID: -1322198011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_19
+      name: cubitos videojuego1_48
       rect:
         serializedVersion: 2
-        x: 4179
-        y: 1062
-        width: 246
-        height: 395
+        x: 71
+        y: 422
+        width: 114
+        height: 255
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce2cb682f630317429f548bbb1cbcb87
-      internalID: -404899654
+      spriteID: d5a48690974709b4c9f8e8fa79c9aed6
+      internalID: -1920530501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_20
+      name: cubitos videojuego1_50
       rect:
         serializedVersion: 2
-        x: 4590
-        y: 1127
-        width: 164
-        height: 273
+        x: 262
+        y: 266
+        width: 122
+        height: 151
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d009eb9faf5fee846925d98acab42ac6
-      internalID: 741456897
+      spriteID: 9be5b28a2fa7a64438de4e777c79d607
+      internalID: -786586161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_21
+      name: cubitos videojuego1_51
       rect:
         serializedVersion: 2
-        x: 4971
-        y: 1130
-        width: 170
-        height: 267
+        x: 395
+        y: 265
+        width: 123
+        height: 153
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e511553a16813e42a3f7f8789ed5d71
-      internalID: 1255725659
+      spriteID: f11b30adaf9740c43a5b17c3165ebb25
+      internalID: -1821585377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_22
+      name: cubitos videojuego1_53
       rect:
         serializedVersion: 2
-        x: 5052
-        y: 584
-        width: 189
-        height: 281
+        x: 743
+        y: 477
+        width: 148
+        height: 254
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e460c86083cfd841aa65ef0d8737af9
-      internalID: 414740925
+      spriteID: de43e6bd18673454fa40d01dbdfd9524
+      internalID: 1514968640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_23
+      name: cubitos videojuego1_54
       rect:
         serializedVersion: 2
-        x: 4671
-        y: 573
-        width: 178
-        height: 278
+        x: 744
+        y: 201
+        width: 110
+        height: 253
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fda22be556c5284b94bb534eea8b005
-      internalID: 1363406295
+      spriteID: 15da1ea6e1c968f429fd410b914d601c
+      internalID: 1723819688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_24
+      name: cubitos videojuego1_56
       rect:
         serializedVersion: 2
-        x: 4179
-        y: 449
-        width: 238
-        height: 402
+        x: 958
+        y: 423
+        width: 128
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ea095a76aa692a428170a54f3d2954f
-      internalID: -325078749
+      spriteID: 717cb49aff9171c419637ed614426e57
+      internalID: -1347175152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_25
+      name: cubitos videojuego1_57
       rect:
         serializedVersion: 2
-        x: 5370
-        y: 3756
-        width: 278
-        height: 132
+        x: 1347
+        y: 416
+        width: 98
+        height: 142
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 327a9c87da0f9e34ab6d4e8585bb3d40
-      internalID: -1953739232
+      spriteID: ed5b007c728ac8c4ea44f95ba287fcc6
+      internalID: 170422605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_26
+      name: cubitos videojuego1_61
       rect:
         serializedVersion: 2
-        x: 5310
-        y: 3167
-        width: 392
-        height: 259
+        x: 600
+        y: 201
+        width: 111
+        height: 254
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b05cbe2fcf6e904da5aa7b245d8c378
-      internalID: -629725080
+      spriteID: 74420dc2c2d2ddd4ea32dc064b400a40
+      internalID: -400652651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_27
+      name: cubitos videojuego1_63
       rect:
         serializedVersion: 2
-        x: 5275
-        y: 2399
-        width: 527
-        height: 570
+        x: 1054
+        y: 267
+        width: 64
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d69e1ae414be32f4db7a6c84f4972eaf
-      internalID: 744841950
+      spriteID: 336c485e7d472dd49bf4093cad1350e5
+      internalID: 778455423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_28
+      name: cubitos videojuego1_64
       rect:
         serializedVersion: 2
-        x: 5353
-        y: 1646
-        width: 379
-        height: 581
+        x: 1161
+        y: 281
+        width: 40
+        height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5b5fa194cbe80746bba8969595982b0
-      internalID: 99939052
+      spriteID: 19f36d22f1bd1834da9b73fb0c2a8ff7
+      internalID: -1303157941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_29
+      name: cubitos videojuego1_65
       rect:
         serializedVersion: 2
-        x: 4416
-        y: 2955
-        width: 503
-        height: 500
+        x: 1256
+        y: 283
+        width: 42
+        height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbb16372e610ec443a368796d16083da
-      internalID: 1609531259
+      spriteID: 5bb1830f4ae6ecf4a8908267b9677051
+      internalID: 454284100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_30
+      name: cubitos videojuego1_69
       rect:
         serializedVersion: 2
-        x: 3789
-        y: 2953
-        width: 506
-        height: 505
+        x: 924
+        y: 269
+        width: 65
+        height: 103
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbd036ff156c02d4faae82f3d8f6ba67
-      internalID: 1494961238
+      spriteID: 905f8cba927bf2d4ea7c5cfaf59d4531
+      internalID: -57414715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_31
+      name: cubitos videojuego1_70
       rect:
         serializedVersion: 2
-        x: 3798
-        y: 2345
-        width: 488
-        height: 505
+        x: 926
+        y: 117
+        width: 65
+        height: 104
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ca7e301ac01a944eab0b3ef42c7b1be
-      internalID: 1125862687
+      spriteID: 9743ebe8e7b5bdd409dbd8e2c6562ccf
+      internalID: -32347089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_32
+      name: cubitos videojuego1_71
       rect:
         serializedVersion: 2
-        x: 4427
-        y: 2342
-        width: 492
-        height: 508
+        x: 1054
+        y: 115
+        width: 61
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fca0d2c1f0c53b40a2a1914d8ce728d
-      internalID: 1009850215
+      spriteID: 40e35c0c6dbe10d43b6d464a58d95224
+      internalID: 270698288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mapa2_33
+      name: cubitos videojuego1_72
       rect:
         serializedVersion: 2
-        x: 4422
-        y: 3502
-        width: 502
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1275
+        y: 147
+        width: 47
+        height: 72
+      alignment: 9
+      pivot: {x: 0.5181198, y: 0.5201144}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c0911d5e1d193e4d8847111df7e8b9b
-      internalID: 1055789022
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mapa2_34
-      rect:
-        serializedVersion: 2
-        x: 3789
-        y: 3513
-        width: 498
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cdfd3844fafaee84d8728b69436b8f0a
-      internalID: -344448362
+      spriteID: 4e048d99ae65262419615b0bc0bea91d
+      internalID: 213556231
       vertices: []
       indices: 
       edges: []
@@ -850,41 +850,82 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      mapa2_0: 773603202
-      mapa2_1: -472768021
-      mapa2_10: -80543715
-      mapa2_11: -1821678282
-      mapa2_12: -702003653
-      mapa2_13: 177386650
-      mapa2_14: 945966837
-      mapa2_15: 274479644
-      mapa2_16: -617300820
-      mapa2_17: 1177865663
-      mapa2_18: -733949075
-      mapa2_19: -473461593
-      mapa2_2: -571057182
-      mapa2_20: -78469059
-      mapa2_21: 1690848827
-      mapa2_22: -2145606832
-      mapa2_23: -1980813417
-      mapa2_24: 2084119886
-      mapa2_25: -1264046058
-      mapa2_26: -999728785
-      mapa2_27: -1921770579
-      mapa2_28: 390194590
-      mapa2_29: -404899654
-      mapa2_3: 720737854
-      mapa2_30: 741456897
-      mapa2_31: 1255725659
-      mapa2_32: 414740925
-      mapa2_33: 1363406295
-      mapa2_34: -325078749
-      mapa2_4: -391311259
-      mapa2_5: -1237329050
-      mapa2_6: 333223095
-      mapa2_7: -62110343
-      mapa2_8: 1143869463
-      mapa2_9: -1782860409
+      cubitos videojuego1_0: -535292679
+      cubitos videojuego1_1: 163275482
+      cubitos videojuego1_10: -981303278
+      cubitos videojuego1_11: 13542044
+      cubitos videojuego1_12: -1278321786
+      cubitos videojuego1_13: 935281581
+      cubitos videojuego1_14: 1683461037
+      cubitos videojuego1_15: -1136347841
+      cubitos videojuego1_16: 808866539
+      cubitos videojuego1_17: 315976172
+      cubitos videojuego1_18: -782805900
+      cubitos videojuego1_19: -2131598139
+      cubitos videojuego1_2: 1635485880
+      cubitos videojuego1_20: -358385038
+      cubitos videojuego1_21: 646829745
+      cubitos videojuego1_22: -1758084820
+      cubitos videojuego1_23: 866894741
+      cubitos videojuego1_24: 59657285
+      cubitos videojuego1_25: 1146657621
+      cubitos videojuego1_26: -561847831
+      cubitos videojuego1_27: -1634850328
+      cubitos videojuego1_28: -2135203157
+      cubitos videojuego1_29: -167873997
+      cubitos videojuego1_3: 305023361
+      cubitos videojuego1_30: 239073978
+      cubitos videojuego1_31: -1725049240
+      cubitos videojuego1_32: -467724060
+      cubitos videojuego1_33: 1399709422
+      cubitos videojuego1_34: -1626684185
+      cubitos videojuego1_35: 852262676
+      cubitos videojuego1_36: 1394250582
+      cubitos videojuego1_37: 1215108878
+      cubitos videojuego1_38: -723767577
+      cubitos videojuego1_39: 577944662
+      cubitos videojuego1_4: -1578438160
+      cubitos videojuego1_40: -1322198011
+      cubitos videojuego1_41: 1585805910
+      cubitos videojuego1_42: 1636746599
+      cubitos videojuego1_43: -186293492
+      cubitos videojuego1_44: -223249402
+      cubitos videojuego1_45: 156215640
+      cubitos videojuego1_46: 2106284314
+      cubitos videojuego1_47: 440795352
+      cubitos videojuego1_48: -1920530501
+      cubitos videojuego1_49: -12264948
+      cubitos videojuego1_5: -2036056535
+      cubitos videojuego1_50: -786586161
+      cubitos videojuego1_51: -1821585377
+      cubitos videojuego1_52: -742664129
+      cubitos videojuego1_53: 1514968640
+      cubitos videojuego1_54: 1723819688
+      cubitos videojuego1_55: 1273329063
+      cubitos videojuego1_56: -1347175152
+      cubitos videojuego1_57: 170422605
+      cubitos videojuego1_58: -1792658126
+      cubitos videojuego1_59: 1962945932
+      cubitos videojuego1_6: -1994909164
+      cubitos videojuego1_60: -1767561981
+      cubitos videojuego1_61: -400652651
+      cubitos videojuego1_62: -2133217047
+      cubitos videojuego1_63: 778455423
+      cubitos videojuego1_64: -1303157941
+      cubitos videojuego1_65: 454284100
+      cubitos videojuego1_66: -1267939879
+      cubitos videojuego1_67: 1250816865
+      cubitos videojuego1_68: -977433474
+      cubitos videojuego1_69: -57414715
+      cubitos videojuego1_7: 2146592712
+      cubitos videojuego1_70: -32347089
+      cubitos videojuego1_71: 270698288
+      cubitos videojuego1_72: 213556231
+      cubitos videojuego1_73: -1630485942
+      cubitos videojuego1_74: -847807809
+      cubitos videojuego1_75: -1928749946
+      cubitos videojuego1_8: -552281997
+      cubitos videojuego1_9: 92402445
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
