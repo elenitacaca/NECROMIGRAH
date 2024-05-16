@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 230
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,12 +109,12 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 315
-        y: 250
+        y: 249
         width: 218
         height: 228
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 2, y: 3, z: 0, w: 3}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -150,13 +150,13 @@ TextureImporter:
       name: cubitosnecronomigraa_2
       rect:
         serializedVersion: 2
-        x: 84
-        y: 31
+        x: 79
+        y: 32
         width: 226
         height: 217
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 1, y: 2, z: 3, w: 2}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -171,8 +171,8 @@ TextureImporter:
       name: cubitosnecronomigraa_3
       rect:
         serializedVersion: 2
-        x: 317
-        y: 28
+        x: 318
+        y: 27
         width: 225
         height: 219
       alignment: 0
@@ -192,13 +192,13 @@ TextureImporter:
       name: cubitosnecronomigraa_4
       rect:
         serializedVersion: 2
-        x: 542
+        x: 546
         y: 21
-        width: 223
+        width: 219
         height: 230
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 3, z: 5, w: 4}
       outline: []
       physicsShape: []
       tessellationDetail: 0
