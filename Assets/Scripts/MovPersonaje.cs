@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,10 +15,16 @@ public class MovPersonaje : MonoBehaviour
 
     private Rigidbody2D rb; 
 
+    GameObject respawn;
+
     // Start is called before the first frame update
     void Start()
     {
        rb =  GetComponent<Rigidbody2D>();
+
+       respawn = GameObject.Find("Respawn");
+
+      Respawnear();
     }
 
     // Update is called once per frame
@@ -70,9 +77,21 @@ public class MovPersonaje : MonoBehaviour
 
         puedoSaltar = false;
       }
+
+        if(transform.position.y <= -5){
+            Respawnear();
+        }
+
     }
 
     void OnCollisionEnter2D(){
         puedoSaltar = true;
+    }
+
+    public void Respawnear(){
+
+        GameManager.vidas = GameManager.vidas -1;
+
+        transform.position = respawn.transform.position;
     }
 }
