@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,29 +13,34 @@ public class MovPersonaje : MonoBehaviour
 
     private bool puedoSaltar = true;
 
-    private Rigidbody2D rb; 
+    private Rigidbody2D rb;
+    
+    private Animator animatorController;
+
+
+    GameObject respawn;
 
     // Start is called before the first frame update
     void Start()
     {
        rb =  GetComponent<Rigidbody2D>();
+
+       animatorController = this.GetComponent<Animator>();
+
+       respawn = GameObject.Find("Respawn");
+
+      Respawnear();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float movTeclas = Input.GetAxis("Horizontal"); //(a -1f - d 1f)
-
+       
         float miDeltaTime = Time.deltaTime;
 
-    
-        /*transform.Translate(
-            movTeclas*(Time.deltaTime*multiplicador),
-            0,
-            0
-        );*/
+        //MOVIMIENTO
 
-        //movimiento personaje
+        float movTeclas = Input.GetAxis("Horizontal"); //(a -1f - d 1f)
 
         rb.velocity = new Vector2(movTeclas*multiplicador, rb.velocity.y);
 
@@ -47,6 +53,14 @@ public class MovPersonaje : MonoBehaviour
         //dcha
           this.GetComponent<SpriteRenderer>().flipX = false;  
           miraDerecha = true;
+        }
+
+        //ANIMACION WALKING
+
+        if(movTeclas != 0){
+          animatorController.SetBool("activaCamina", true);
+        }else{
+          animatorController.SetBool("activaCamina", false);
         }
 
 
@@ -70,9 +84,23 @@ public class MovPersonaje : MonoBehaviour
 
         puedoSaltar = false;
       }
+
+        if(transform.position.y <= -5){
+            Respawnear();
+        }
+
     }
 
     void OnCollisionEnter2D(){
         puedoSaltar = true;
+    }
+
+    public void Respawnear(){
+
+       Debug.Log("vidas: "+GameManager.vidas);
+      GameManager.vidas = GameManager.vidas - 1;
+      Debug.Log("vidas: "+GameManager.vidas);
+
+        transform.position = respawn.transform.position;
     }
 }
