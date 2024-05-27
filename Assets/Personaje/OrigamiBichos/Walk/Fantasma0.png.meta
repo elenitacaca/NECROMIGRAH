@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ace14e93af30045a6a599a54af0f23eb
+guid: 9e0ab29614e92429bbc0ab848bb6f703
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 400
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,76 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attacl1_0
+      name: Fantasma0_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 1167
-        width: 393
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb6c83ec9847742afba4d6868f6de6d0
-      internalID: 109345553
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attacl1_1
-      rect:
-        serializedVersion: 2
-        x: 553
-        y: 1167
-        width: 400
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d5969126f77c42bda5542ecab7785c2
-      internalID: 1510470752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attacl1_2
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 1140
-        width: 371
-        height: 215
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4bd6753e799a451584ac08fd9f9be30
-      internalID: -2056286075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Attacl1_3
-      rect:
-        serializedVersion: 2
-        x: 82
+        x: 71
         y: 638
-        width: 371
-        height: 215
+        width: 326
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1b42ba9b315f4e739e36bbc4d825a1e
-      internalID: 1630200268
+      spriteID: d9cdfe8936a9142e0bca5fa82c308a29
+      internalID: -540943176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attacl1_4
+      name: Fantasma0_1
       rect:
         serializedVersion: 2
-        x: 554
-        y: 655
-        width: 404
-        height: 196
+        x: 559
+        y: 631
+        width: 407
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a42588413fb534390beb64f6ef832c2e
-      internalID: -1313024105
+      spriteID: a48259cdf09d2477aa2be14c79125aeb
+      internalID: 1557824624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attacl1_5
+      name: Fantasma0_2
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 665
-        width: 400
-        height: 177
+        x: 92
+        y: 620
+        width: 30
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be917bc1ef1fb4a7f82efc10a2882dd0
-      internalID: 2015187200
+      spriteID: 9c93b6d9c1ada4a439151106f6d3b80b
+      internalID: -1118081631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attacl1_6
+      name: Fantasma0_3
       rect:
         serializedVersion: 2
-        x: 55
-        y: 163
-        width: 393
-        height: 176
+        x: 131
+        y: 625
+        width: 4
+        height: 4
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,8 +182,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3a93e85b985248ea972af802d8ed723
-      internalID: -846801745
+      spriteID: 622336114dad042ebb5daf9a8c7295f1
+      internalID: -1326525187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fantasma0_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 118
+        width: 284
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0b87c24b74a45d280fe52cde75a82c
+      internalID: -681732838
       vertices: []
       indices: 
       edges: []
@@ -262,13 +220,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Attacl1_0: 109345553
-      Attacl1_1: 1510470752
-      Attacl1_2: -2056286075
-      Attacl1_3: 1630200268
-      Attacl1_4: -1313024105
-      Attacl1_5: 2015187200
-      Attacl1_6: -846801745
+      Fantasma0_0: -540943176
+      Fantasma0_1: 1557824624
+      Fantasma0_2: -1118081631
+      Fantasma0_3: -1326525187
+      Fantasma0_4: -681732838
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
