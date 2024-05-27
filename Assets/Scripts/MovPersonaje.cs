@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,14 +8,15 @@ public class MovPersonaje : MonoBehaviour
 
     public float multiplicadorSalto = 5f;
 
-    public bool miraDerecha = true;
+   float movTeclas;
 
     private bool puedoSaltar = true;
+
+    public bool miraDerecha = true;
 
     private Rigidbody2D rb;
     
     private Animator animatorController;
-
 
     GameObject respawn;
 
@@ -29,18 +29,22 @@ public class MovPersonaje : MonoBehaviour
 
        respawn = GameObject.Find("Respawn");
 
-      Respawnear();
+       transform.position = respawn.transform.position;
+
+      //Respawnear();
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        if(GameManager.estoyMuerto) return;
        
         float miDeltaTime = Time.deltaTime;
 
         //MOVIMIENTO
 
-        float movTeclas = Input.GetAxis("Horizontal"); //(a -1f - d 1f)
+        movTeclas = Input.GetAxis("Horizontal"); //(a -1f - d 1f)
 
         rb.velocity = new Vector2(movTeclas*multiplicador, rb.velocity.y);
 
@@ -66,7 +70,7 @@ public class MovPersonaje : MonoBehaviour
 
         //salto
          RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.5f);
-        Debug.DrawRay(transform.position, Vector2.down, Color.magenta);
+         Debug.DrawRay(transform.position, Vector2.down, Color.magenta);
 
         if(hit){
             puedoSaltar = true;
@@ -77,17 +81,25 @@ public class MovPersonaje : MonoBehaviour
 
 
         if(Input.GetKeyDown(KeyCode.Space) && puedoSaltar){
+          
         rb.AddForce(
             new Vector2(0,multiplicadorSalto),
             ForceMode2D.Impulse
         );
 
-        puedoSaltar = false;
       }
 
+          //Comprobar si me he salido de la pantalla por abajo
         if(transform.position.y <= -5){
             Respawnear();
         }
+
+        // 0 vidas
+
+       if(GameManager.vidas <= 0)
+       {
+        GameManager.estoyMuerto = true;
+       }
 
     }
 

@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         Debug.Log("Puntos: "+puntos);
-        Debug.Log("Deads:" +muertes);
+        Debug.Log("Deads: "+muertes);
 
         vidasText.GetComponent<TextMeshProUGUI>().text = vidas.ToString();
     }
