@@ -69,7 +69,7 @@ public class MovPersonaje : MonoBehaviour
 
 
         //salto
-         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.5f);
+         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 1f);
          Debug.DrawRay(transform.position, Vector2.down, Color.magenta);
 
         if(hit){
@@ -82,10 +82,10 @@ public class MovPersonaje : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space) && puedoSaltar){
           
-        rb.AddForce(
-            new Vector2(0,multiplicadorSalto),
-            ForceMode2D.Impulse
-        );
+          rb.AddForce(
+              new Vector2(0,multiplicadorSalto),
+              ForceMode2D.Impulse
+          );
 
       }
 

@@ -24,8 +24,8 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("Puntos: "+puntos);
-        Debug.Log("Deads: "+muertes);
+        //Debug.Log("Puntos: "+puntos);
+        //Debug.Log("Deads: "+muertes);
 
         vidasText.GetComponent<TextMeshProUGUI>().text = vidas.ToString();
     }
