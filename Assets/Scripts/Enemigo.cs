@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemigo : MonoBehaviour
 {
-    private float vida;
+    public float vida;
 
    private Animator animator;
 

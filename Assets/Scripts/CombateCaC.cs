@@ -10,16 +10,34 @@ public class CombateCaC : MonoBehaviour
 
     public float dañoGolpe;
 
+    public float tiempoEntreAtaques;
+
+    public float tiempoSiguienteAtaque;
+
+    private Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if(tiempoSiguienteAtaque > 0)
+        {
+            tiempoSiguienteAtaque -= Time.deltaTime;
+        }
+
+        if (Input.GetKeyDown(KeyCode.E) && tiempoSiguienteAtaque<= 0)
         {
             Golpe();
+            tiempoSiguienteAtaque = tiempoEntreAtaques;
         }
     }
 
     private void Golpe()
     {
+        animator.SetTrigger("Golpe");
 
   
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
@@ -36,7 +54,7 @@ public class CombateCaC : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        //Gizmos.DrawWireSphere(controladorGolpe.position, radioGolpe);
+        Gizmos.DrawWireSphere(controladorGolpe.position, radioGolpe);
     }
    
 }
