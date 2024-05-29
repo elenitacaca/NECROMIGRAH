@@ -925,7 +925,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1749025907}
-  - component: {fileID: 1749025906}
   - component: {fileID: 1749025905}
   m_Layer: 0
   m_Name: AudioManagerObj
@@ -944,7 +943,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 90806620e94b84afe9a926e549179f69, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 993c295b7a471402192ea2965be4c3be, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1030,23 +1029,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1749025906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1749025904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9520864606e5d47a2999f55101f18eec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bandaSonora: {fileID: 8300000, guid: 993c295b7a471402192ea2965be4c3be, type: 3}
-  fxButton: {fileID: 8300000, guid: 3b184ecd1f1394ac1b4604fad5d0424f, type: 3}
-  fxCoin: {fileID: 8300000, guid: 96513b8d340e74fe894d71fc42b6687a, type: 3}
-  fxDead: {fileID: 8300000, guid: a2fede4fc345c4516940888bd31d9156, type: 3}
-  fxFire: {fileID: 8300000, guid: 4e55c64008deb4c03af265bd3804857d, type: 3}
 --- !u!4 &1749025907
 Transform:
   m_ObjectHideFlags: 0
