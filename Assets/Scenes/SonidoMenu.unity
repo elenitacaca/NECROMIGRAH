@@ -659,7 +659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9520864606e5d47a2999f55101f18eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonora: {fileID: 8300000, guid: dd29421de287943e9a7dfa6391399db8, type: 3}
+  bandaSonora: {fileID: 8300000, guid: 993c295b7a471402192ea2965be4c3be, type: 3}
   fxButton: {fileID: 8300000, guid: ea3782b717cdf42c389669858b1c426c, type: 3}
   fxCoin: {fileID: 8300000, guid: a94322e938cdc4b4aa2ab64a06fb6874, type: 3}
   fxDead: {fileID: 8300000, guid: e184cbbf0901e4e4495752fe2d907bdd, type: 3}
