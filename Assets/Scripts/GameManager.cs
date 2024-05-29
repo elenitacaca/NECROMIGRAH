@@ -15,10 +15,14 @@ public class GameManager : MonoBehaviour
 
      GameObject vidasText;
 
+     //GameObject puntosText;
+
     // Start is called before the first frame update
     void Start()
     {
         vidasText = GameObject.Find("VidasText");
+
+        //puntosText = GameObject.Find("PuntosText");
     }
 
     // Update is called once per frame
@@ -28,5 +32,7 @@ public class GameManager : MonoBehaviour
         //Debug.Log("Deads: "+muertes);
 
         vidasText.GetComponent<TextMeshProUGUI>().text = vidas.ToString();
+
+        //puntosText.GetComponent<TextMeshProUGUI>().text = puntos.ToString();
     }
 }

@@ -109,10 +109,14 @@ public class MovPersonaje : MonoBehaviour
 
     public void Respawnear(){
 
-       Debug.Log("vidas: "+GameManager.vidas);
+      Debug.Log("vidas: "+GameManager.vidas);
       GameManager.vidas = GameManager.vidas - 1;
       Debug.Log("vidas: "+GameManager.vidas);
 
         transform.position = respawn.transform.position;
+
+      //Debug.Log("puntos: "+GameManager.puntos);
+      //GameManager.puntos = GameManager.puntos + 1;
+      //Debug.Log("puntos: "+GameManager.puntos);
     }
 }
