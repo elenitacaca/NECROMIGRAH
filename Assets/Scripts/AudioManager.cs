@@ -21,6 +21,9 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         _audioSource = this.GetComponent<AudioSource>();
+        _audioSource.clip = bandaSonora;
+        _audioSource.loop = true;
+        _audioSource.Play();
     }
 
     // Update is called once per frame
