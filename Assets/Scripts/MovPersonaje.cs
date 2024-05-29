@@ -79,7 +79,7 @@ public class MovPersonaje : MonoBehaviour
             puedoSaltar = false;
         }
 
-
+        
         if(Input.GetKeyDown(KeyCode.Space) && puedoSaltar){
           
           rb.AddForce(
