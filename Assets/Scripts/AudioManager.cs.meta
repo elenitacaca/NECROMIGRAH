@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 9520864606e5d47a2999f55101f18eec
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bandaSonora: {fileID: 8300000, guid: 993c295b7a471402192ea2965be4c3be, type: 3}
+  - fxButton: {fileID: 8300000, guid: 3b184ecd1f1394ac1b4604fad5d0424f, type: 3}
+  - fxCoin: {fileID: 8300000, guid: 96513b8d340e74fe894d71fc42b6687a, type: 3}
+  - fxDead: {fileID: 8300000, guid: a2fede4fc345c4516940888bd31d9156, type: 3}
+  - fxFire: {fileID: 8300000, guid: 4e55c64008deb4c03af265bd3804857d, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
