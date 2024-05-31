@@ -21,7 +21,7 @@ public class Enemigo : MonoBehaviour
    {
     vida -= daño;
 
-    if (vida <= 20)
+    if (vida <= 40)
     {
         Muerte();
     }
