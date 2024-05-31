@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 100
-  velocidadFantasma: 2
+  velocidadFantasma: 1
 --- !u!50 &691363192192149762
 Rigidbody2D:
   serializedVersion: 4
