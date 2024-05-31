@@ -5,9 +5,12 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-   public static int vidas = 3;
+    public static GameManager Instance;
+   public static int vidas = 5;
 
     public static int puntos = 0;
+
+    public GameObject puntaje;
 
     public static int muertes = 0;
 
@@ -17,6 +20,14 @@ public class GameManager : MonoBehaviour
 
      //GameObject puntosText;
 
+    void Awake(){
+        if(Instance != null && Instance != this ){
+            Destroy(this.gameObject);
+        }else{
+            Instance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -34,5 +45,12 @@ public class GameManager : MonoBehaviour
         vidasText.GetComponent<TextMeshProUGUI>().text = vidas.ToString();
 
         //puntosText.GetComponent<TextMeshProUGUI>().text = puntos.ToString();
+
+        
+    }
+
+    public void SumaPuntos(){
+        puntos++;
+        puntaje.GetComponent<TextMeshProUGUI>().text = puntos.ToString();
     }
 }

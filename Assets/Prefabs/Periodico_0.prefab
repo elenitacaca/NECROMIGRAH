@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 867651710049868919}
   - component: {fileID: 8801430473739977494}
   - component: {fileID: -5928847820524306318}
+  - component: {fileID: 915207692027503872}
   m_Layer: 0
   m_Name: Periodico_0
   m_TagString: Untagged
@@ -142,8 +143,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.030449986, y: 0.025999993, z: 0}
-    m_Extent: {x: 0.91695, y: 0.8723, z: 0}
+    m_Center: {x: -0.023200005, y: 0.02670002, z: 0}
+    m_Extent: {x: 0.862, y: 0.8129, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0.64
@@ -173,7 +174,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -258,3 +259,17 @@ PolygonCollider2D:
       - {x: 0.10181818, y: -0.33818182}
       - {x: 0.121818185, y: -0.32909092}
       - {x: 0.13818182, y: -0.3090909}
+--- !u!114 &915207692027503872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867651710049868918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd2fffad26b69dc498c9ce94e1b9b7ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantidadPuntos: 0
+  puntaje: {fileID: 0}

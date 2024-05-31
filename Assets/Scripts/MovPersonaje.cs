@@ -74,7 +74,7 @@ public class MovPersonaje : MonoBehaviour
 
         if(hit){
             puedoSaltar = true;
-            Debug.Log(hit.collider.name);
+            //Debug.Log(hit.collider.name);
         }else{
             puedoSaltar = false;
         }

@@ -56,5 +56,13 @@ public class CombateCaC : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(controladorGolpe.position, radioGolpe);
     }
+
+    void OnTriggerEnter2D(Collider2D col){
+
+        if(col.gameObject.tag == "Enemigo"){
+            Destroy(col.gameObject);
+        }
+
+    }
    
 }
