@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 322672507}
   - component: {fileID: 322672506}
   - component: {fileID: 322672505}
-  - component: {fileID: 322672504}
+  - component: {fileID: 322672509}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -143,18 +143,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &322672504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 322672503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f03dda26a76fe746ab1389b1bd9a2cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &322672505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,6 +226,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &322672509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322672503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a373c608dbe49449dd90024142b573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantidadPuntos: 0
 --- !u!1 &578482161
 GameObject:
   m_ObjectHideFlags: 0
@@ -319,7 +320,7 @@ GameObject:
   - component: {fileID: 742526505}
   - component: {fileID: 742526504}
   m_Layer: 5
-  m_Name: EXIT
+  m_Name: RETRY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -342,8 +343,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -35, y: -162}
-  m_SizeDelta: {x: 589.52, y: 179.45}
+  m_AnchoredPosition: {x: -25.12, y: 14.6}
+  m_SizeDelta: {x: 702.3, y: 222.57}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &742526504
 MonoBehaviour:
@@ -389,9 +390,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 322672504}
-        m_TargetAssemblyTypeName: menuinicio, Assembly-CSharp
-        m_MethodName: ExitGame
+      - m_Target: {fileID: 322672509}
+        m_TargetAssemblyTypeName: Menuganar, Assembly-CSharp
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -697,6 +698,7 @@ GameObject:
   - component: {fileID: 1002468836}
   - component: {fileID: 1002468835}
   - component: {fileID: 1002468837}
+  - component: {fileID: 1002468838}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -746,7 +748,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 556560a80bfd14d49b7ea7815f296964, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 775ea9420d8b55f4992b4c872d667d00, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -816,6 +818,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1002468838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002468833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a373c608dbe49449dd90024142b573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cantidadPuntos: 0
 --- !u!1 &1135548207
 GameObject:
   m_ObjectHideFlags: 0
@@ -853,8 +868,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19, y: 76}
-  m_SizeDelta: {x: 589.52, y: 179.45}
+  m_AnchoredPosition: {x: -37, y: -203}
+  m_SizeDelta: {x: 705.62, y: 212.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1135548209
 MonoBehaviour:
@@ -900,9 +915,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 322672504}
-        m_TargetAssemblyTypeName: menuinicio, Assembly-CSharp
-        m_MethodName: StartGame
+      - m_Target: {fileID: 322672509}
+        m_TargetAssemblyTypeName: Menuganar, Assembly-CSharp
+        m_MethodName: Menuinicio
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
