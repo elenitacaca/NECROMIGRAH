@@ -7,7 +7,6 @@ public class Periodico : MonoBehaviour
 
     public float cantidadPuntos;
 
-    public Puntaje puntaje;
     // Start is called before the first frame update
      void Start()
     {
@@ -22,12 +21,12 @@ public class Periodico : MonoBehaviour
 
    void OnTriggerEnter2D(Collider2D col){
 
-   Debug.Log(col);
+
 
    if(col.name == "Personaje"){
-      
+         Debug.Log(col);   Debug.Log(col.name);
       //puntaje.SumarPuntos(cantidadPuntos);
-      GameManager.puntos += 1;
+      GameManager.Instance.SumaPuntos();
       //miAnimadorController.SetBool("monedaDestruir", true);
       Destroy(this.gameObject, 0.5f);
 
