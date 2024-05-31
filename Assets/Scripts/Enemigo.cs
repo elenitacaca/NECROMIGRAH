@@ -21,9 +21,13 @@ public class Enemigo : MonoBehaviour
    {
     vida -= daño;
 
-    if (vida <= 0)
+    if (vida <= 20)
     {
         Muerte();
+    }
+    if (vida <= 0)
+    {
+        Destroy(this.gameObject, 0.5f);
     }
    }
 
