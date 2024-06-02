@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class MovPersonaje : MonoBehaviour
 {
     public float multiplicador = 5f;
@@ -19,7 +19,12 @@ public class MovPersonaje : MonoBehaviour
     private Animator animatorController;
 
     GameObject respawn;
-
+    GameObject rip;
+    GameObject retry;
+    GameObject home;
+    private int vida;
+    //private bool estoyMuerto;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +35,25 @@ public class MovPersonaje : MonoBehaviour
        respawn = GameObject.Find("Respawn");
 
        transform.position = respawn.transform.position;
+       //MENU MUERTE
+        //rip = GameObject.Find("rip");
+       //rip.SetActive(false);
 
+      //if(GameManager.vidas > 0)
+      
+       // rip = GameObject.Find("rip");
+       // rip.SetActive(true);
+      
+      //if(GameManager.estoyMuerto == true){
+       
+      //}
+        //if(GameManager.estoyMuerto){
+          
+         // rip = GameObject.Find("rip");
+         // rip.SetActive(true);
+         //return;
+        //}
+         
       //Respawnear();
     }
 
@@ -38,7 +61,11 @@ public class MovPersonaje : MonoBehaviour
     void Update()
     {
 
-        if(GameManager.estoyMuerto) return;
+        if(GameManager.estoyMuerto){
+          
+          SceneManager.LoadScene("menumuerte");
+          return;
+        }
        
         float miDeltaTime = Time.deltaTime;
 
