@@ -34,6 +34,11 @@ public class PuertaVerde : MonoBehaviour
    void Start (){
 
     GameObject.Find("portal").SetActive(false);
+    
+   }
+
+   void Update(){
+
     if(GameManager.Instance.getPuntos() >= 6){
        
        GameObject.Find("portal").SetActive(true);
