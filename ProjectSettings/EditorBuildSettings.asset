@@ -15,6 +15,17 @@ EditorBuildSettings:
     path: Assets/Scenes/menuganar.unity
     guid: 5cd5dc6ab35d6f7489bdd270d1d9c307
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Escena2.unity
     guid: 09b6fea388a593c47ac322c8d1dd7429
+=======
+    path: Assets/Scenes/Menuprincipal.unity
+    guid: 9044da300a6523c4e948d8a34cd9b1e7
+  - enabled: 1
+    path: Assets/Scenes/menumuerte.unity
+    guid: 19fa09231d5b70540a7827280a78021b
+  - enabled: 1
+    path: Assets/Scenes/MenuGanarr.unity
+    guid: 4b928d2f582e96f4ba10c52e9bd1eff5
+>>>>>>> 66b6003bb75a53a35f7174f96467ff7d9aa57d3d
   m_configObjects: {}

@@ -53,4 +53,9 @@ public class GameManager : MonoBehaviour
         puntos++;
         puntaje.GetComponent<TextMeshProUGUI>().text = puntos.ToString();
     }
+
+    public float getPuntos(){
+        return puntos;
+    }
+
 }
