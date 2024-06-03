@@ -7,6 +7,20 @@ using UnityEngine.UI;
 public class Menumuerte : MonoBehaviour
 
 {
+
+  /*public GameObject menuGameOver;
+
+  private MovPersonaje movPersonaje;
+
+  private void Start(){
+    movPersonaje = GameObject.FindGameObjectWithTag("Player").GetComponent<MovPersonaje>();
+    movPersonaje.MuerteJugador += ActivarMenu;
+  }
+
+  private void ActivarMenu(object sender, EventArgs e){
+    menuGameOver.SetActive(true);
+  }*/
+  
  GameObject rip;
     GameObject retry;
     GameObject home;

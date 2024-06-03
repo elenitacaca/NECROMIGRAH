@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using Unity.VisualScripting;
 
 public class MovPersonaje : MonoBehaviour
 {
@@ -17,6 +19,8 @@ public class MovPersonaje : MonoBehaviour
     private Rigidbody2D rb;
     
     private Animator animatorController;
+
+    ////public event EventHandler estoyMuerto;
 
     GameObject respawn;
 
@@ -99,6 +103,7 @@ public class MovPersonaje : MonoBehaviour
        if(GameManager.vidas <= 0)
        {
         GameManager.estoyMuerto = true;
+      //////  estoyMuerto?.Invoke(this, EventArgs.Empty);
        }
 
     }
