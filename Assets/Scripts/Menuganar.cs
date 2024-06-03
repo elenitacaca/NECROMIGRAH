@@ -22,12 +22,10 @@ public class Menuganar : MonoBehaviour
         
     }
      public void StartGame(){
-
         SceneManager.LoadScene("Escena1");
     }
 
     public void Menuprincipal(){
-       
         SceneManager.LoadScene("Menuprincipal");
     }
 }

@@ -74,12 +74,12 @@ public class Menumuerte : MonoBehaviour
 // }
 
        public void StartGame(){
-
+        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxClick1);
         SceneManager.LoadScene("Escena1");
         }
 
       public void Menuprincipal(){
-       
+        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxClick1);
         SceneManager.LoadScene("Menuprincipal");
         }
 
