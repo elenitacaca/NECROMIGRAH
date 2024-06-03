@@ -9,11 +9,11 @@ public class Menuganar : MonoBehaviour
     GameObject panel;
     // Start is called before the first frame update
     void Start()
-    {   if(cantidadPuntos == 6){
-         panel = GameObject.Find("Panel");
-        panel.SetActive(true);
+    {   //if(cantidadPuntos == 6){
+         //panel = GameObject.Find("Panel");
+        //panel.SetActive(true);
 
-        }
+        //}
     }
 
     // Update is called once per frame
