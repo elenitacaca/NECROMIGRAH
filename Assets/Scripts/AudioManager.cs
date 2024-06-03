@@ -7,10 +7,27 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _audioSource = this.GetComponent<AudioSource>();
-        _audioSource.clip = bandaSonora;
-        _audioSource.loop = true;
-        _audioSource.Play();
+        public AudioClip bandaSonora; 
+
+        public AudioClip FxAtaqueTentaculo; 
+
+        public AudioClip FxBotonExit;
+
+        public AudioClip FxClick1; 
+
+        public AudioClip FxGanar;
+
+        public AudioClip FxMenu;
+
+        public AudioClip FxMuerteMenu;
+
+        public AudioClip FxMuerteNyat;
+
+        public AudioClip FxPapel;
+
+        public AudioClip FxPortal; 
+
+        
     }
 
     // Update is called once per frame
