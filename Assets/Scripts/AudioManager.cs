@@ -19,7 +19,7 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager Instance;
 
-    void Awake(){
+    /*void Awake(){
 
         if(instance != null && Instance!= this){
             Destroy(this.gameObject);
@@ -28,7 +28,7 @@ public class AudioManager : MonoBehaviour
             DontDestroyOnLoad(this.gameobject);
         }
         
-    }
+    }*/
     
 
     // Start is called before the first frame update
