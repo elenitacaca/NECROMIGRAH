@@ -35,6 +35,9 @@ public class Menumuerte : MonoBehaviour
       rip = GameObject.Find("rip");
       rip.SetActive(true);
 
+       AudioManager.Instance.SonarMuerte();
+
+
      //if(GameManager.estoyMuerto == true)
     // {
       //  rip = GameObject.Find("rip");
@@ -73,13 +76,15 @@ public class Menumuerte : MonoBehaviour
    //  SceneManager.LoadScene(nombre);
 // }
 
-       public void StartGame(){
+      public void StartGame(){
+        GameManager.vidas = 5;
+         AudioManager.Instance.SonarMusica();
         SceneManager.LoadScene("Escena1");
-        }
+      }
 
       public void Menuprincipal(){
         SceneManager.LoadScene("Menuprincipal");
-        }
+      }
 
         public void SuenaBoton(){
         AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxClick1);

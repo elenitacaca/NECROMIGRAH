@@ -38,24 +38,22 @@ public class AudioManager : MonoBehaviour
 
 
 
-        void Awake(){
+    void Awake(){
 
-            if(Instance != null && Instance != this){
-                Destroy(this.gameObject);
-            }else{
-                Instance = this;
-                DontDestroyOnLoad(this.gameObject);
-            }
+        if(Instance != null && Instance != this){
+            Destroy(this.gameObject);
+        }else{
+            Instance = this;
+            DontDestroyOnLoad(this.gameObject);
         }
+    }
 
 
     // Start is called before the first frame update
     void Start()
    {
         _audioSource = this.GetComponent<AudioSource>();
-        _audioSource.clip = bandaSonora;
-        _audioSource.loop = true;
-        _audioSource.Play();
+        //_audioSource.Play();
    } 
        
 
@@ -73,5 +71,21 @@ public class AudioManager : MonoBehaviour
         _audioSource.PlayOneShot(ac);
     }
 
+    public void SonarMuerte(){
+        _audioSource.clip = FxMuerte;
+        _audioSource.loop = true;
+        _audioSource.Play();
+    }
+
+    public void SonarMusica(){
+        _audioSource.clip = bandaSonora;
+        _audioSource.loop = true;
+        _audioSource.Play();
+    }
+    public void SonarMenu(){
+        _audioSource.clip = FxMenu;
+        _audioSource.loop = true;
+        _audioSource.Play();
+    }
 }
 

@@ -465,7 +465,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793919899}
   m_CullTransparentMesh: 1
---- !u!1 &806923824
+--- !u!1 &1008967798
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -473,8 +473,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 806923826}
-  - component: {fileID: 806923825}
+  - component: {fileID: 1008967801}
+  - component: {fileID: 1008967800}
+  - component: {fileID: 1008967799}
   m_Layer: 0
   m_Name: AudioManagerObj
   m_TagString: Untagged
@@ -482,21 +483,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!82 &806923825
+--- !u!82 &1008967799
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 806923824}
+  m_GameObject: {fileID: 1008967798}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e8e9b346d5f714d6bb94fb3c0094022c, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_audioClip: {fileID: 8300000, guid: fb0e68ca8c37345d28fd1c52db7681fd, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.77
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -578,20 +579,44 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &806923826
+--- !u!114 &1008967800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008967798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9520864606e5d47a2999f55101f18eec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bandaSonora: {fileID: 8300000, guid: fb0e68ca8c37345d28fd1c52db7681fd, type: 3}
+  FxAtaqueTentaculo: {fileID: 8300000, guid: f6ace53e2aaa34486a3478ce34c6970b, type: 3}
+  FxBotonExit: {fileID: 8300000, guid: 153e8d03be7f9418da5a585cad624835, type: 3}
+  FxClick1: {fileID: 8300000, guid: 3b184ecd1f1394ac1b4604fad5d0424f, type: 3}
+  FxGanar: {fileID: 8300000, guid: f4417c54080a649ca84354fae7a27076, type: 3}
+  FxMenu: {fileID: 8300000, guid: 993c295b7a471402192ea2965be4c3be, type: 3}
+  FxMuerteMenu: {fileID: 8300000, guid: e8e9b346d5f714d6bb94fb3c0094022c, type: 3}
+  FxMuerteNyat: {fileID: 8300000, guid: a2fede4fc345c4516940888bd31d9156, type: 3}
+  FxPapel: {fileID: 8300000, guid: 96513b8d340e74fe894d71fc42b6687a, type: 3}
+  FxPortal: {fileID: 8300000, guid: edc9b7b9cbdf24796a026011ae7861ee, type: 3}
+  FxMuertbicho: {fileID: 8300000, guid: 1485d755def75478c91e7d7ac8d802e3, type: 3}
+  FxMuerte: {fileID: 8300000, guid: e8e9b346d5f714d6bb94fb3c0094022c, type: 3}
+--- !u!4 &1008967801
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 806923824}
+  m_GameObject: {fileID: 1008967798}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1217575, y: 0.22500952, z: -11.023729}
+  m_LocalPosition: {x: -1.408477, y: 0.99880856, z: 43.811584}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1582991998
 GameObject:
@@ -834,7 +859,7 @@ RectTransform:
   m_Children:
   - {fileID: 793919900}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -907,5 +932,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

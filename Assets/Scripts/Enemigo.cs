@@ -6,44 +6,46 @@ public class Enemigo : MonoBehaviour
 {
     public float vida;
 
-   private Animator animator;
+    private Animator animator;
 
-   private void Start()
-   {
-    animator = GetComponent<Animator>();
+    Vector3 posicionInicial;
+    GameObject personaje;
 
-    posicionInicial = transform.position;
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+
+        posicionInicial = transform.position;
         //personaje = GameObject.Find("Personaje");
         personaje = GameObject.FindGameObjectWithTag("Player");
-   }
-
-   public void TomarDaño(float daño)
-   {
-    vida -= daño;
-
-    if (vida <= 40)
-    {
-        Muerte();
     }
-    if (vida <= 0)
-    {
-        Destroy(this.gameObject, 0.5f);
-    }
-     AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxMuertbicho);
-   }
 
-   private void Muerte()
-   {
-    animator.SetTrigger("Muerte");
-   }
- 
-  Vector3 posicionInicial;
-    GameObject personaje;
+    public void TomarDaño(float daño)
+    {
+        vida -= daño;
+
+        if (vida <= 40)
+        {
+            Muerte();
+        }
+        if (vida <= 0)
+        {
+            Destroy(this.gameObject, 0.5f);
+        }
+        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxMuertbicho);
+    }
+
+    private void Muerte()
+    {
+        animator.SetTrigger("Muerte");
+    }
+
+
 
     public float velocidadFantasma = 10.0f;
 
     // Start is called before the first frame update
-   
+
 
     // Update is called once per frame
     void Update()
@@ -52,19 +54,22 @@ public class Enemigo : MonoBehaviour
         float velocidadFinal = velocidadFantasma * Time.deltaTime;
 
         //Si la distancia del fantasma es mayor que 4, me persigue
-        if(distancia <= 4.1f){
-                //acción
-               //Debug.DrawLine(transform.position, personaje.transform.position, Color.red, 2.5f);
-               transform.position = Vector3.MoveTowards(transform.position, personaje.transform.position, velocidadFinal);
+        if (distancia <= 4.1f)
+        {
+            //acción
+            //Debug.DrawLine(transform.position, personaje.transform.position, Color.red, 2.5f);
+            transform.position = Vector3.MoveTowards(transform.position, personaje.transform.position, velocidadFinal);
 
-              
-        }else{
+
+        }
+        else
+        {
             transform.position = Vector3.MoveTowards(transform.position, posicionInicial, velocidadFinal);
-            
+
 
         }
 
-       
-        
+
+
     }
 }

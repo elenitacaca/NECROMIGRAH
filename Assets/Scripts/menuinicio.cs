@@ -12,6 +12,7 @@ public class menuinicio : MonoBehaviour
     {
         panelsettings = GameObject.Find("Panelsettings");
         panelsettings.SetActive(false);
+        AudioManager.Instance.SonarMenu();
     }
 
     // Update is called once per frame
@@ -21,7 +22,7 @@ public class menuinicio : MonoBehaviour
     }
 
     public void StartGame(){
-
+        AudioManager.Instance.SonarMusica();
         SceneManager.LoadScene("Escena1");
     }
 
