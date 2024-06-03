@@ -1,13 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< HEAD
-using System;
-using Unity.VisualScripting;
-
-=======
 using UnityEngine.SceneManagement;
->>>>>>> 66b6003bb75a53a35f7174f96467ff7d9aa57d3d
 public class MovPersonaje : MonoBehaviour
 {
     public float multiplicador = 5f;

@@ -10,14 +10,6 @@ public class PuertaVerde : MonoBehaviour
    
     GameObject portal;
     // Start is called before the first frame update
-<<<<<<< HEAD
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Player")
-        {
-            SceneManager.LoadScene("Escena2");
-        }
-=======
    // private void OnTriggerEnter(Collider other)
    // {
        // if (other.tag == "Player")
@@ -62,7 +54,6 @@ public class PuertaVerde : MonoBehaviour
     
     
       }
->>>>>>> 66b6003bb75a53a35f7174f96467ff7d9aa57d3d
     }
 
 }
