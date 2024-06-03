@@ -11,12 +11,13 @@ public class Periodico : MonoBehaviour
      void Start()
     {
         //miAnimadorController = this.GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxPapel);
     }
 
    void OnTriggerEnter2D(Collider2D col){
