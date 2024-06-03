@@ -26,12 +26,12 @@ public class menuinicio : MonoBehaviour
     }
 
     public void ExitGame(){
-        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxBotonExit);
+        //AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxBotonExit);
         Application.Quit();
     }
 
     public void MostrarSettings(){
-        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxClick1);
+        //AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxClick1);
     panelsettings.SetActive(true);
     }
 
