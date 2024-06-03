@@ -36,4 +36,10 @@ public class menuinicio : MonoBehaviour
     public void OcultarSettings(){
     panelsettings.SetActive(false);
     }
+
+    public void SuenaBoton(){
+        AudioManager.Instance.SonarClip(AudioManager.Instance.FxClick1);
+    }
+
+
 }

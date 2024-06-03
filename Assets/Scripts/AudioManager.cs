@@ -63,5 +63,11 @@ public class AudioManager : MonoBehaviour
     {
         
     }
+
+    public void SonarClipFxClick1(){
+
+        _audioSource.PlayOneShor(FxClick1);
+    }
+
 }
 
