@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
         public AudioClip bandaSonora; 
 
         public AudioClip FxAtaqueTentaculo; 
@@ -27,6 +24,11 @@ public class AudioManager : MonoBehaviour
 
         public AudioClip FxPortal; 
 
+    // Start is called before the first frame update
+    void Start()
+    
+       
+
         
     }
 
@@ -35,4 +37,4 @@ public class AudioManager : MonoBehaviour
     {
         
     }
-}
+
