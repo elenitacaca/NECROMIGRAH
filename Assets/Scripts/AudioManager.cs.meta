@@ -3,7 +3,17 @@ guid: 9520864606e5d47a2999f55101f18eec
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - bandaSonora: {instanceID: 0}
+  - FxAtaqueTentaculo: {instanceID: 0}
+  - FxBotonExit: {instanceID: 0}
+  - FxClick1: {instanceID: 0}
+  - FxGanar: {instanceID: 0}
+  - FxMenu: {instanceID: 0}
+  - FxMuerteMenu: {instanceID: 0}
+  - FxMuerteNyat: {fileID: 8300000, guid: e8e9b346d5f714d6bb94fb3c0094022c, type: 3}
+  - FxPapel: {instanceID: 0}
+  - FxPortal: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

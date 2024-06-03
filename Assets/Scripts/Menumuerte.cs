@@ -83,6 +83,10 @@ public class Menumuerte : MonoBehaviour
         SceneManager.LoadScene("Menuprincipal");
         }
 
+        public void SuenaBoton(){
+        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxClick1);
+    }
+
 
 
 

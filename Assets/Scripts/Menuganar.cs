@@ -23,9 +23,20 @@ public class Menuganar : MonoBehaviour
     }
      public void StartGame(){
         SceneManager.LoadScene("Escena1");
+        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxClick1);
+
     }
 
     public void Menuprincipal(){
         SceneManager.LoadScene("Menuprincipal");
+        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxClick1);
+
     }
+
+    public void SuenaBoton(){
+        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxClick1);
+    }
+
+
+    
 }

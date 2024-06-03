@@ -18,6 +18,10 @@ public class MovPersonaje : MonoBehaviour
     
     private Animator animatorController;
 
+    public GameObject oMuerteNyat;
+
+    private AudioSource sMuerteNyat;
+
     ////public event EventHandler estoyMuerto;
 
     GameObject respawn;
@@ -37,6 +41,8 @@ public class MovPersonaje : MonoBehaviour
        respawn = GameObject.Find("Respawn");
 
        transform.position = respawn.transform.position;
+
+       sMuerteNyat = oMuerteNyat.GetComponent<AudioSource>();
        //MENU MUERTE
         //rip = GameObject.Find("rip");
        //rip.SetActive(false);
@@ -139,7 +145,7 @@ public class MovPersonaje : MonoBehaviour
     }
 
     public void Respawnear(){
-
+     sMuerteNyat.Play();
       Debug.Log("vidas: "+GameManager.vidas);
       GameManager.vidas = GameManager.vidas - 1;
       Debug.Log("vidas: "+GameManager.vidas);
