@@ -28,8 +28,9 @@ public class Periodico : MonoBehaviour
          Debug.Log(col);   Debug.Log(col.name);
       //puntaje.SumarPuntos(cantidadPuntos);
       GameManager.Instance.SumaPuntos();
-        
       Destroy(this.gameObject, 0.5f);
+      
+      AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxPapel);  
 
    }
 

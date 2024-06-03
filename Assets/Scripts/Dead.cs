@@ -24,7 +24,7 @@ public class Dead : MonoBehaviour
     void OnTriggerEnter2D(Collider2D col){
 
         if(col.name == "Personaje"){
-             AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxMuerteNyat);
+             //AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxMuerteNyat);
              movPersonaje.Respawnear();
 
         }

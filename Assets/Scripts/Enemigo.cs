@@ -29,6 +29,7 @@ public class Enemigo : MonoBehaviour
     {
         Destroy(this.gameObject, 0.5f);
     }
+     AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxMuertbicho);
    }
 
    private void Muerte()
@@ -62,6 +63,8 @@ public class Enemigo : MonoBehaviour
             
 
         }
+
+       
         
     }
 }
