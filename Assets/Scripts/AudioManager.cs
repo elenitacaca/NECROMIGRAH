@@ -17,6 +17,20 @@ public class AudioManager : MonoBehaviour
 
     AudioSource _audioSource;
 
+    public static AudioManager Instance;
+
+    void Awake(){
+
+        if(instance != null && Instance!= this){
+            Destroy(this.gameObject);
+        }else{
+            Instance = this;
+            DontDestroyOnLoad(this.gameobject);
+        }
+        
+    }
+    
+
     // Start is called before the first frame update
     void Start()
     {

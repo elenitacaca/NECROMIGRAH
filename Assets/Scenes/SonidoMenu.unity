@@ -659,10 +659,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9520864606e5d47a2999f55101f18eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bandaSonora: {fileID: 8300000, guid: 993c295b7a471402192ea2965be4c3be, type: 3}
-  fxButton: {fileID: 8300000, guid: ea3782b717cdf42c389669858b1c426c, type: 3}
-  fxCoin: {fileID: 8300000, guid: a94322e938cdc4b4aa2ab64a06fb6874, type: 3}
-  fxDead: {fileID: 8300000, guid: e184cbbf0901e4e4495752fe2d907bdd, type: 3}
+  bandaSonora: {fileID: 8300000, guid: fb0e68ca8c37345d28fd1c52db7681fd, type: 3}
+  fxButton: {fileID: 8300000, guid: 3b184ecd1f1394ac1b4604fad5d0424f, type: 3}
+  fxCoin: {fileID: 8300000, guid: 96513b8d340e74fe894d71fc42b6687a, type: 3}
+  fxDead: {fileID: 8300000, guid: a2fede4fc345c4516940888bd31d9156, type: 3}
   fxFire: {fileID: 8300000, guid: 01f76039abf7f47a087874d10aa68dc6, type: 3}
 --- !u!4 &1120813186
 Transform:
@@ -689,7 +689,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 993c295b7a471402192ea2965be4c3be, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.61
   m_Pitch: 1
