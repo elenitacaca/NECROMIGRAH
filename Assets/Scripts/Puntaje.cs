@@ -5,7 +5,7 @@ using TMPro;
 
 public class Puntaje : MonoBehaviour
 {
-    public static float puntos = 0;
+    private float puntos;
 
     public TextMeshProUGUI textMesh;
 
@@ -24,9 +24,4 @@ public class Puntaje : MonoBehaviour
     {
         puntos += puntosEntrada;
     }
-
-    public static float getPuntos(){
-        return puntos;
-    }
-
 }
