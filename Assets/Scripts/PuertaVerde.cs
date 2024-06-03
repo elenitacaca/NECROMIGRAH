@@ -47,6 +47,6 @@ public class PuertaVerde : MonoBehaviour
         AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxPortal); 
     }
    }
-   
+
 
 }

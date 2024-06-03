@@ -27,6 +27,8 @@ public class AudioManager : MonoBehaviour
 
         public AudioClip FxMuertbicho;
 
+        public AudioClip FxMuerte;
+
 
 
         AudioSource _audioSource;
@@ -44,8 +46,6 @@ public class AudioManager : MonoBehaviour
                 Instance = this;
                 DontDestroyOnLoad(this.gameObject);
             }
-
-
         }
 
 

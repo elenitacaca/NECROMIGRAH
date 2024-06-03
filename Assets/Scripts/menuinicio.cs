@@ -17,7 +17,7 @@ public class menuinicio : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxMenu);
     }
 
     public void StartGame(){
@@ -42,6 +42,5 @@ public class menuinicio : MonoBehaviour
     public void SuenaBoton(){
         AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxClick1);
     }
-
 
 }

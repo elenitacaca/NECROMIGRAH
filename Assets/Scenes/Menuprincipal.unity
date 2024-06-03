@@ -874,6 +874,8 @@ MonoBehaviour:
   FxMuerteNyat: {fileID: 8300000, guid: a2fede4fc345c4516940888bd31d9156, type: 3}
   FxPapel: {fileID: 8300000, guid: 96513b8d340e74fe894d71fc42b6687a, type: 3}
   FxPortal: {fileID: 8300000, guid: edc9b7b9cbdf24796a026011ae7861ee, type: 3}
+  FxMuertbicho: {fileID: 0}
+  FxMuerte: {fileID: 0}
 --- !u!1 &1522402301
 GameObject:
   m_ObjectHideFlags: 0
