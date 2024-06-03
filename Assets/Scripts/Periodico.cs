@@ -28,7 +28,6 @@ public class Periodico : MonoBehaviour
       //puntaje.SumarPuntos(cantidadPuntos);
       GameManager.Instance.SumaPuntos();
 
-      //miAnimadorController.SetBool("monedaDestruir", true);
       Destroy(this.gameObject, 0.5f);
 
    }
