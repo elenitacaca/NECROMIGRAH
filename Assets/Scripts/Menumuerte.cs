@@ -24,16 +24,16 @@ public class Menumuerte : MonoBehaviour
  GameObject rip;
     GameObject retry;
     GameObject home;
-    private int vida;
-    private int estoyMuerto;
+    
+    
     void Start()
-{
+   {
  // if(GameManager.estoyMuerto == true){
      //  SceneManager.LoadScene("menumuerte");
      // }
 
-      // rip = GameObject.Find("rip");
-       //rip.SetActive(false);
+      rip = GameObject.Find("rip");
+      rip.SetActive(true);
 
      //if(GameManager.estoyMuerto == true)
     // {
@@ -62,7 +62,7 @@ public class Menumuerte : MonoBehaviour
         /// home = GameObject.Find("home");
          //  home.SetActive(true);
         // }
-}
+       }
 //public void reiniciar()
 //{
    // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -73,7 +73,7 @@ public class Menumuerte : MonoBehaviour
    //  SceneManager.LoadScene(nombre);
 // }
 
- public void StartGame(){
+       public void StartGame(){
 
         SceneManager.LoadScene("Escena1");
         }

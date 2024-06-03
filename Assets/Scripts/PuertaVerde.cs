@@ -32,28 +32,19 @@ public class PuertaVerde : MonoBehaviour
         //}
    // }
    void Start (){
-
-    GameObject.Find("portal").SetActive(false);
+    portal = GameObject.Find("portal");
+    
+    portal.SetActive(false);
     
    }
 
    void Update(){
-
+     Debug.Log(GameManager.Instance.getPuntos());
     if(GameManager.Instance.getPuntos() >= 6){
        
-       GameObject.Find("portal").SetActive(true);
+       portal.SetActive(true);
     }
    }
-   void OnTriggerEnter2D(Collider2D col){
-
-    
-
-   if(col.name == "Personaje"){
-     
-        SceneManager.LoadScene("MenuGanarr");
-    
-    
-      }
-    }
+   
 
 }
