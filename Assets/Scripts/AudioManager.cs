@@ -64,9 +64,10 @@ public class AudioManager : MonoBehaviour
         
     }
 
-    public void SonarClipFxClick1(){
-
-        _audioSource.PlayOneShor(FxClick1);
+   
+   //Metodo hacer sonar c lips de audio.
+    public void SonarClipUnavez(AudioClip ac){
+        _audioSource.PlayOneShot(ac);
     }
 
 }

@@ -120,6 +120,7 @@ public class MovPersonaje : MonoBehaviour
 
           //Comprobar si me he salido de la pantalla por abajo
         if(transform.position.y <= -5){
+            AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxMuerteNyat);
             Respawnear();
         }
 
