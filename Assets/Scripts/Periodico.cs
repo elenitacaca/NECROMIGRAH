@@ -27,10 +27,6 @@ public class Periodico : MonoBehaviour
          Debug.Log(col);   Debug.Log(col.name);
       //puntaje.SumarPuntos(cantidadPuntos);
       GameManager.Instance.SumaPuntos();
-      //AudioManager.Instance.fxCoin
-
-       // GameManager.puntos += 1;
-        //miAnimadorController.SetBool("periodicoDestruir", true)
 
       Destroy(this.gameObject, 0.5f);
 
