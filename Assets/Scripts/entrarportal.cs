@@ -22,6 +22,8 @@ public class entrarportal : MonoBehaviour
    if(col.name == "Personaje"){
      
         SceneManager.LoadScene("MenuGanarr");
+
+        
     
     
       }

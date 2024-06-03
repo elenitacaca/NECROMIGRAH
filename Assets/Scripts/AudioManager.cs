@@ -25,6 +25,9 @@ public class AudioManager : MonoBehaviour
 
         public AudioClip FxPortal; 
 
+        public AudioClip FxMuertbicho;
+
+
 
         AudioSource _audioSource;
 

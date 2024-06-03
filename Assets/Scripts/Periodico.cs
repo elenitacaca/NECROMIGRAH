@@ -31,8 +31,6 @@ public class Periodico : MonoBehaviour
       
       AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxPapel);  
 
-      
-
    }
 
    }

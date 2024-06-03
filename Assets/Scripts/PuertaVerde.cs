@@ -43,6 +43,8 @@ public class PuertaVerde : MonoBehaviour
     if(GameManager.Instance.getPuntos() >= 6){
        
        portal.SetActive(true);
+
+        AudioManager.Instance.SonarClipUnavez(AudioManager.Instance.FxPortal); 
     }
    }
    
